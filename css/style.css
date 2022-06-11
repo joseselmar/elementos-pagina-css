@@ -85,7 +85,7 @@ form {
     margin-top: 20px;
 }
 
-form input {
+form.newsletter input {
     width: 380px;
     padding-left: 15px;
     font-size: 18px;
@@ -166,6 +166,14 @@ main .container-main img{
     height:400px;
     align-items: center;
     border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px green;
     margin: 100px auto;
     max-width: 980px;
+    margin-top: 100px;
+}
+.form-contact input,textarea,select{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
 }
